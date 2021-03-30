@@ -1,22 +1,12 @@
-package challenges.linkedList;
-
-class Node {
-    int value;
-    Node next;
-
-    public Node(int value){
-        this.value = value;
-        this.next = next;
-    }
-}
+package linkedList;
 
 public class  LinkedList {
-    Node head;
-    Node tail;
+    NodeII head;
+    NodeII tail;
 
 
     public void insert(int value) {
-        Node newNode = new Node(value);
+        NodeII newNode = new NodeII(value);
         newNode.next = this.head;
         this.head = newNode;
         if (this.tail == null) {
@@ -25,7 +15,7 @@ public class  LinkedList {
     }
 
     public boolean includes(int value) {
-        Node currentNode = this.head;
+        NodeII currentNode = this.head;
         while (currentNode != null) {
             if (currentNode.value == value) {
                 return true;
@@ -37,21 +27,21 @@ public class  LinkedList {
 
     public String toString() {
         String str = "";
-        Node currentNode = this.head;
+        NodeII currentNode = this.head;
         while (currentNode != null) {
-            str += "{ " + currentNode.value + "} ->";
+            str += "{ " + currentNode.value + " } -> ";
             currentNode = currentNode.next;
         }
         str += "NULL";
-        System.out.println("STRING RESULTS: " + str);
+        System.out.println("STRING RESULTS:" + str);
         return str;
     }
 
     public void append(int value){
-        Node currentNode = this.head;
+        NodeII currentNode = this.head;
         while (currentNode != null){
             if(currentNode.next == null){
-                Node newNode = new Node(value);
+                NodeII newNode = new NodeII(value);
                 newNode.next = null;
                 currentNode.next = newNode;
                 return;
@@ -61,10 +51,10 @@ public class  LinkedList {
     }
 
     public void insertBefore(int value, int newValue){
-        Node currentNode = this.head;
+        NodeII currentNode = this.head;
         while (currentNode != null){
             if (currentNode.next.value == value){
-                Node newNode = new Node(newValue);
+                NodeII newNode = new NodeII(newValue);
                 newNode.next = currentNode.next;
                 currentNode.next = newNode;
                 return;
@@ -75,10 +65,10 @@ public class  LinkedList {
     }
 
     public void insertAfter(int value, int newValue){
-        Node currentNode = this.head;
+        NodeII currentNode = this.head;
         while (currentNode != null){
             if (currentNode.value == value){
-                Node newNode = new Node(newValue);
+                NodeII newNode = new NodeII(newValue);
                 newNode.next = currentNode.next;
                 currentNode.next = newNode;
                 return;
