@@ -35,3 +35,22 @@ Made an array of numbers, and declared an empty array. Looped through the first 
 - Includes method takes in an int, and loops for as long as the current node is null. If the input value matches the value of the current node then the method returns true. If not, the loop tests the next node in the list. When the loop runs out of nodes to check and has not found it's match it returns false.
 toString method takes in no arguments. It creates an empty string to serve as a vessel, and loops through the nodes in the list and adds the node values along with string concatenation for formatting to the empty string , and then returns the now filled string.
 
+## Linked List Insertions
+
+### Challenge
+Write the following methods for the Linked List class:
+
+- .append which adds a new node with the given value to the end of the list
+
+- .insertBefore which add a new node with the given new value  before the first value node
+
+- .insertAfter which add a new node with the given new value  after the first value node
+
+### Aprroach and Efficiency
+
+- Append: Looped through the linked-list, and while the target node has a value it moves to the next node. If the node is null then a new node is created in it's place posessing the value taken in by the method, and a new node of null is created and added to the end of the list.
+
+- InsertBefore Looped through the linked-list while the current node is not null. If the next node in the list has a value that matches the input value then a new node carrying the new  value is created and put in the current nodes position in the list, and that node is moved down the list by one. 
+
+- InsertAfter Looped through the linked-list while the current node is not null and if the next node in the list has a value that is the same as the input value then a new node carrying the new input value is created and put in the current node's position in the list and that node is moved up a postistion. 
+
