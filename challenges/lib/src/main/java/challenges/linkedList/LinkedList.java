@@ -1,16 +1,18 @@
 package challenges.linkedList;
 
-public class  LinkedList {
-    public Node head;
-    public Node tail;
+class Node {
+    int value;
+    Node next;
 
-
-
-    public LinkedList() {
-
-        this.head = null;
-        this.tail = null;
+    public Node(int value){
+        this.value = value;
+        this.next = next;
     }
+}
+
+public class  LinkedList {
+    Node head;
+    Node tail;
 
 
     public void insert(int value) {
@@ -44,4 +46,46 @@ public class  LinkedList {
         System.out.println("STRING RESULTS: " + str);
         return str;
     }
+
+    public void append(int value){
+        Node currentNode = this.head;
+        while (currentNode != null){
+            if(currentNode.next == null){
+                Node newNode = new Node(value);
+                newNode.next = null;
+                currentNode.next = newNode;
+                return;
+            }
+            currentNode = currentNode.next;
+        }
+    }
+
+    public void insertBefore(int value, int newValue){
+        Node currentNode = this.head;
+        while (currentNode != null){
+            if (currentNode.next.value == value){
+                Node newNode = new Node(newValue);
+                newNode.next = currentNode.next;
+                currentNode.next = newNode;
+                return;
+            }
+            currentNode = currentNode.next;
+        }
+
+    }
+
+    public void insertAfter(int value, int newValue){
+        Node currentNode = this.head;
+        while (currentNode != null){
+            if (currentNode.value == value){
+                Node newNode = new Node(newValue);
+                newNode.next = currentNode.next;
+                currentNode.next = newNode;
+                return;
+            }
+            currentNode = currentNode.next;
+        }
+
+    }
 }
+
