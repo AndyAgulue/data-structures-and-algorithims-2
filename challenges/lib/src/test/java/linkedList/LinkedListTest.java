@@ -24,8 +24,8 @@ import static org.junit.Assert.assertEquals;
         public void emptyTest(){
             LinkedList test2 = new LinkedList();
             LinkedList base2 = new LinkedList();
-            NodeII expected1 = null;
-            NodeII actual1 = test2.head;
+            Node expected1 = null;
+            Node actual1 = test2.head;
             assertEquals("expect a null value for head", expected1, actual1);
         }
 
@@ -165,5 +165,26 @@ import static org.junit.Assert.assertEquals;
             String actual = list.toString();
             assertEquals(expected, actual);
         }
+
+        @Test
+        public void kthFromEndTest(){
+            LinkedList list = new LinkedList();
+            list.insert(10);
+            list.insert(9);
+            list.insert(8);
+            list.insert(7);
+
+            // test to see if the (k) is greater than the length of the linked list
+            Object actual = list.kthFromEnd(5);
+            Object expected = "Invalid value";
+            assertEquals(" Tests that k is greater than the value", expected, actual);
+
+            // test to see if the (k) is the same length of the linked list
+            Object actual1 = list.kthFromEnd(4);
+            Object expected1 = "Invalid value";
+            assertEquals(" Tests that k and value are the same length", expected1, actual1);
+
+        }
+
     }
 

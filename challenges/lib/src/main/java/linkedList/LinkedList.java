@@ -1,12 +1,12 @@
 package linkedList;
 
 public class  LinkedList {
-    NodeII head;
-    NodeII tail;
+    Node head;
+    Node tail;
 
 
     public void insert(int value) {
-        NodeII newNode = new NodeII(value);
+        Node newNode = new Node(value);
         newNode.next = this.head;
         this.head = newNode;
         if (this.tail == null) {
@@ -15,7 +15,7 @@ public class  LinkedList {
     }
 
     public boolean includes(int value) {
-        NodeII currentNode = this.head;
+        Node currentNode = this.head;
         while (currentNode != null) {
             if (currentNode.value == value) {
                 return true;
@@ -27,7 +27,7 @@ public class  LinkedList {
 
     public String toString() {
         String str = "";
-        NodeII currentNode = this.head;
+        Node currentNode = this.head;
         while (currentNode != null) {
             str += "{ " + currentNode.value + " } -> ";
             currentNode = currentNode.next;
@@ -38,10 +38,10 @@ public class  LinkedList {
     }
 
     public void append(int value){
-        NodeII currentNode = this.head;
+        Node currentNode = this.head;
         while (currentNode != null){
             if(currentNode.next == null){
-                NodeII newNode = new NodeII(value);
+                Node newNode = new Node(value);
                 newNode.next = null;
                 currentNode.next = newNode;
                 return;
@@ -51,10 +51,10 @@ public class  LinkedList {
     }
 
     public void insertBefore(int value, int newValue){
-        NodeII currentNode = this.head;
+        Node currentNode = this.head;
         while (currentNode != null){
             if (currentNode.next.value == value){
-                NodeII newNode = new NodeII(newValue);
+                Node newNode = new Node(newValue);
                 newNode.next = currentNode.next;
                 currentNode.next = newNode;
                 return;
@@ -65,10 +65,10 @@ public class  LinkedList {
     }
 
     public void insertAfter(int value, int newValue){
-        NodeII currentNode = this.head;
+        Node currentNode = this.head;
         while (currentNode != null){
             if (currentNode.value == value){
-                NodeII newNode = new NodeII(newValue);
+                Node newNode = new Node(newValue);
                 newNode.next = currentNode.next;
                 currentNode.next = newNode;
                 return;
@@ -77,5 +77,33 @@ public class  LinkedList {
         }
 
     }
+    public Object kthFromEnd (int k){
+        int count = counter();
+        int newCount = (count - k - 1);
+        Node currentNode = this.head;
+        while(currentNode != null){
+            if(newCount < 0){
+                return "Invalid value";
+            }
+            else if (newCount == 0){
+                return currentNode.value;
+            }
+            currentNode = currentNode.next;
+            newCount --;
+        }
+        return currentNode.value;
+    }
+
+    public int counter() {
+        Node currentNode = this.head;
+        int counter = 0;
+        while(currentNode != null){
+            counter++;
+            currentNode = currentNode.next;
+        }
+        return counter;
+    }
+
+
 }
 

@@ -1,26 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="linkedList.LinkedListTest" tests="13" skipped="0" failures="0" errors="0" timestamp="2021-03-30T21:11:32" hostname="iMac.carmelot" time="0.021">
+<testsuite name="linkedList.LinkedListTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-03-31T00:00:47" hostname="iMac.carmelot" time="0.002">
   <properties/>
-  <testcase name="appendTest" classname="linkedList.LinkedListTest" time="0.018"/>
-  <testcase name="appendTest2" classname="linkedList.LinkedListTest" time="0.0"/>
-  <testcase name="stringTest" classname="linkedList.LinkedListTest" time="0.0"/>
-  <testcase name="emptyTest" classname="linkedList.LinkedListTest" time="0.001"/>
-  <testcase name="excludesTest" classname="linkedList.LinkedListTest" time="0.0"/>
-  <testcase name="headTest" classname="linkedList.LinkedListTest" time="0.0"/>
-  <testcase name="insertAfterTest" classname="linkedList.LinkedListTest" time="0.0"/>
-  <testcase name="includesTest" classname="linkedList.LinkedListTest" time="0.0"/>
-  <testcase name="multipleTest" classname="linkedList.LinkedListTest" time="0.001"/>
-  <testcase name="insertBeforeTest" classname="linkedList.LinkedListTest" time="0.0"/>
-  <testcase name="insertTest" classname="linkedList.LinkedListTest" time="0.0"/>
-  <testcase name="insertBeforeTest2" classname="linkedList.LinkedListTest" time="0.0"/>
-  <testcase name="insertAfterTest2" classname="linkedList.LinkedListTest" time="0.001"/>
-  <system-out><![CDATA[STRING RESULTS:{ 3 } -> { 2 } -> { 1 } -> { 7 } -> NULL
-STRING RESULTS:{ 3 } -> { 2 } -> { 1 } -> { 5 } -> { 8 } -> NULL
-STRING RESULTS:{ 2 } -> { 3 } -> { 5 } -> NULL
-STRING RESULTS:{ 3 } -> { 2 } -> { 5 } -> { 1 } -> NULL
-STRING RESULTS:{ 3 } -> { 8 } -> { 2 } -> { 1 } -> NULL
-STRING RESULTS:{ 3 } -> { 2 } -> { 9 } -> { 1 } -> NULL
-STRING RESULTS:{ 3 } -> { 2 } -> { 1 } -> { 8 } -> NULL
-]]></system-out>
+  <testcase name="kthFromEndTest" classname="linkedList.LinkedListTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
