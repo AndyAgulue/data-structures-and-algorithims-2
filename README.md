@@ -68,6 +68,10 @@ Write a method for the Linked List class which takes a number, k, as a parameter
 - Continue the steps 2 and 3 end of the linked list.
 - If data not found in linked list , return -1.
 
+### Link
+[code challenge 7](challenges/lib/src/main/java/challenges/linkedList/LinkedList.java)
+
+
 ### Solution
 <img width="665" alt="Screen Shot 2021-03-30 at 3 47 04 PM" src="https://user-images.githubusercontent.com/74209521/113066970-54ccba80-9170-11eb-9c10-23a800a85fba.png">
 
