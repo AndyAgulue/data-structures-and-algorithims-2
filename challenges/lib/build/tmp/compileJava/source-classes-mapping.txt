@@ -1,10 +1,10 @@
-linkedList/NodeII.java
- linkedList.NodeII
 challenges/ArrayReverse.java
  ArrayReverse
 challenges/ArrayShift.java
  challenges.ArrayShift
-challenges/Library.java
- challenges.Library
+linkedList/Node.java
+ linkedList.Node
 linkedList/LinkedList.java
  linkedList.LinkedList
+challenges/Library.java
+ challenges.Library
