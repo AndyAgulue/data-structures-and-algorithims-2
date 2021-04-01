@@ -88,6 +88,9 @@ Write a function called zipLists which takes two linked lists as arguments. Zip 
 Run a loop, while there are available positions in the first loop insert nodes of second list by changing pointers.
 
 ## Whiteboard
+
+White board with Barrett Nance  and Joseph Lee 
+
 <img width="1519" alt="Screen Shot 2021-03-31 at 10 06 47 PM" src="https://user-images.githubusercontent.com/74209521/113251030-7021ed80-9276-11eb-936b-f1c4a2cac893.png">
 
 
