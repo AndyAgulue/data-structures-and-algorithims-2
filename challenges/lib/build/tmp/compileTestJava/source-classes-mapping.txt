@@ -2,5 +2,5 @@ challenges/ArrayShiftTest.java
  challenges.ArrayShiftTest
 challenges/LibraryTest.java
  challenges.LibraryTest
-linkedList/LinkedListTest.java
- linkedList.LinkedListTest
+challenges/linkedList/LinkedListTest.java
+ challenges.linkedList.LinkedListTest

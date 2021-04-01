@@ -1,4 +1,4 @@
-package linkedList;
+package challenges.linkedList;
 
 public class  LinkedList {
     Node head;
@@ -103,6 +103,29 @@ public class  LinkedList {
         }
         return counter;
     }
+
+    public static LinkedList zipList(LinkedList one, LinkedList two){
+        if(one == null)
+            return two;
+        if(two == null){
+            return one;
+        }
+        Node current1 = one.head;
+        Node current2 = two.head;
+        Node tempVar;
+        while (current1 != null){
+
+            tempVar = current1.next;
+            current1.next = current2;
+            current1.next.next = tempVar;
+            current1.next = current1.next.next;
+            current2 = current2.next;
+
+
+        }
+        return one;
+    }
+
 
 
 }

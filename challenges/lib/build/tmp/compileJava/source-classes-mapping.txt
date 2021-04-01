@@ -2,9 +2,9 @@ challenges/ArrayReverse.java
  ArrayReverse
 challenges/ArrayShift.java
  challenges.ArrayShift
-linkedList/Node.java
- linkedList.Node
-linkedList/LinkedList.java
- linkedList.LinkedList
+challenges/linkedList/Node.java
+ challenges.linkedList.Node
 challenges/Library.java
  challenges.Library
+challenges/linkedList/LinkedList.java
+ challenges.linkedList.LinkedList
