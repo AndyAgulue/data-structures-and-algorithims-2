@@ -75,4 +75,20 @@ Write a method for the Linked List class which takes a number, k, as a parameter
 ### Solution
 <img width="665" alt="Screen Shot 2021-03-30 at 3 47 04 PM" src="https://user-images.githubusercontent.com/74209521/113066970-54ccba80-9170-11eb-9c10-23a800a85fba.png">
 
+# Zipped Linked-List
+
+Combine two lists in an alternate manner.
+
+## Description
+
+Write a function called zipLists which takes two linked lists as arguments. Zip the two linked lists together into one so that the nodes alternate between the two lists and return a reference to the head of the zipped list.
+
+## Approach & Efficiency
+
+Run a loop, while there are available positions in the first loop insert nodes of second list by changing pointers.
+
+## Whiteboard
+<img width="1519" alt="Screen Shot 2021-03-31 at 10 06 47 PM" src="https://user-images.githubusercontent.com/74209521/113251030-7021ed80-9276-11eb-936b-f1c4a2cac893.png">
+
+
 
