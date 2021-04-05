@@ -94,4 +94,37 @@ White board with Barrett Nance  and Joseph Lee
 <img width="1519" alt="Screen Shot 2021-03-31 at 10 06 47 PM" src="https://user-images.githubusercontent.com/74209521/113251030-7021ed80-9276-11eb-936b-f1c4a2cac893.png">
 
 
+# Stacks and Queuess
+
+## Description
+
+Create a Node class that has properties for the value stored in the Node, and a pointer to the next node.
+Create a Stack class that has a top property. It creates an empty Stack when instantiated.
+
+## Approach and efficiency
+
+Time and efficiency of 0(1)
+
+## API
+
+### Stack
+
+**Push** Takes in a value as an argument and adds it to the top of the stack with an efficeincy of 0(1).
+
+**Pop** Removes the top most node in a stack, returns the value of the stack.
+
+**Peek** Returns the value of the node on top of the stack.
+
+**isEmpty** Checks to see if Stack is empty, returns true or false.
+
+### Queue
+
+**EnQueue** Takes in a value as an argument and adds it to the top of the stack with an efficeincy of 0(1).
+
+**Pop** Removes the top most node in a stack, returns the value of the stack.
+
+**Peek** Returns the value of the node on top of the stack.
+
+**isEmpty** Checks to see if Stack is empty, returns true or false.
+
 
