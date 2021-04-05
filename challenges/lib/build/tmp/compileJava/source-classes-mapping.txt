@@ -2,9 +2,16 @@ challenges/ArrayReverse.java
  ArrayReverse
 challenges/ArrayShift.java
  challenges.ArrayShift
-linkedList/Node.java
- linkedList.Node
-linkedList/LinkedList.java
- linkedList.LinkedList
+challenges/stacksandqueues/Node.java
+ challenges.stacksandqueues.Node
+challenges/stacksandqueues/Stack.java
+ challenges.stacksandqueues.Stack
+challenges/linkedList/Node.java
+ challenges.linkedList.Node
+challenges/stacksandqueues/Queue.java
+ challenges.stacksandqueues.Queue
 challenges/Library.java
  challenges.Library
+challenges/linkedList/LinkedList.java
+ challenges.linkedList.LinkedList
+ challenges.linkedList.LinkedList$Zipping

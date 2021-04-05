@@ -1,4 +1,4 @@
-package linkedList;
+package challenges.linkedList;
 
 import org.junit.Test;
 
@@ -74,7 +74,7 @@ import static org.junit.Assert.assertEquals;
             test.insert(3);
             test.insert(5);
             int expected = 5;
-            int actual = test.head.value;
+            int actual = (int) test.head.value;
             assertEquals("head is 5", expected, actual);
 
         }
@@ -86,10 +86,10 @@ import static org.junit.Assert.assertEquals;
             LinkedList test = new LinkedList();
             test.insert(7777);
             int expected = 7777;
-            int actual = test.head.value;
+            int actual = (int) test.head.value;
             test.insert(7171);
             int expected2 = 7171;
-            int actual2 = test.head.value;
+            int actual2 = (int) test.head.value;
             assertEquals("insert 7777", expected, actual);
             assertEquals("insert 7171", expected2, actual2);
         }
@@ -183,6 +183,28 @@ import static org.junit.Assert.assertEquals;
             Object actual1 = list.kthFromEnd(4);
             Object expected1 = "Invalid value";
             assertEquals(" Tests that k and value are the same length", expected1, actual1);
+
+        }
+
+        @Test
+        public void TestZipList(){
+            LinkedList LinkedListsTest = new LinkedList();
+            LinkedListsTest.insert(8);
+            LinkedListsTest.insert(6);
+            LinkedListsTest.insert(4);
+            LinkedListsTest.insert(2);
+
+            LinkedList LinkedListsTest2 = new LinkedList();
+            LinkedListsTest2.insert(9);
+            LinkedListsTest2.insert(7);
+            LinkedListsTest2.insert(5);
+            LinkedListsTest2.insert(3);
+
+            LinkedList result = LinkedList.zipList(LinkedListsTest,LinkedListsTest2);
+            String x = "HEAD 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> 8 -> 9 -> NULL";
+            System.out.println(result);
+            assertEquals(x, result.toString());
+
 
         }
 

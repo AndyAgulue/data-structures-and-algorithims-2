@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="challenges.stacksandqueues.StacksandQueuesTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2021-04-05T21:47:41" hostname="iMac.carmelot" time="0.007">
+  <properties/>
+  <testcase name="testException" classname="challenges.stacksandqueues.StacksandQueuesTest" time="0.002"/>
+  <testcase name="testPop" classname="challenges.stacksandqueues.StacksandQueuesTest" time="0.001"/>
+  <testcase name="testCreateQueue" classname="challenges.stacksandqueues.StacksandQueuesTest" time="0.0"/>
+  <testcase name="testCreateStack" classname="challenges.stacksandqueues.StacksandQueuesTest" time="0.0"/>
+  <testcase name="testPeek" classname="challenges.stacksandqueues.StacksandQueuesTest" time="0.001"/>
+  <testcase name="testDequeue" classname="challenges.stacksandqueues.StacksandQueuesTest" time="0.0"/>
+  <testcase name="testExceptionOnEmpty" classname="challenges.stacksandqueues.StacksandQueuesTest" time="0.001"/>
+  <testcase name="testIsEmpty" classname="challenges.stacksandqueues.StacksandQueuesTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

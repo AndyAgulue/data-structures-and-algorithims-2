@@ -1,4 +1,4 @@
-package linkedList;
+package challenges.linkedList;
 
  class Node {
         int value;

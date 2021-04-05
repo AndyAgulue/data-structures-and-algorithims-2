@@ -5,6 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b62f965e-8f13-4526-97e4-0fcc42d563ac" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/lib/src/main/java/challenges/stacksandqueues/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/main/java/challenges/stacksandqueues/Queue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/main/java/challenges/stacksandqueues/Stack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/test/java/challenges/stacksandqueues/StacksandQueuesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workspace.code-workspace" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.8.3/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8.3/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.8.3/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8.3/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.8.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8.3/fileHashes/fileHashes.bin" afterDir="false" />
@@ -13,23 +19,14 @@
       <change beforePath="$PROJECT_DIR$/.gradle/6.8.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8.3/javaCompile/classAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.8.3/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8.3/javaCompile/jarAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.8.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8.3/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.8.3/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8.3/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/build/classes/java/main/linkedList/LinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/lib/build/classes/java/main/linkedList/LinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/build/classes/java/main/linkedList/NodeII.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/build/classes/java/test/linkedList/LinkedListTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/lib/build/classes/java/test/linkedList/LinkedListTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/build/reports/tests/test/classes/linkedList.LinkedListTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/lib/build/reports/tests/test/classes/linkedList.LinkedListTest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/lib/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/build/reports/tests/test/packages/linkedList.html" beforeDir="false" afterPath="$PROJECT_DIR$/lib/build/reports/tests/test/packages/linkedList.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/build/test-results/test/TEST-linkedList.LinkedListTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lib/build/test-results/test/TEST-linkedList.LinkedListTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/lib/build/test-results/test/binary/output.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/lib/build/test-results/test/binary/output.bin.idx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/lib/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/build/classes/java/main/challenges/linkedList/LinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/build/classes/java/test/challenges/linkedList/LinkedListTest.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/build/tmp/compileJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lib/build/tmp/compileJava/source-classes-mapping.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/main/java/linkedList/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/main/java/linkedList/LinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/main/java/linkedList/NodeII.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/main/java/linkedList/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/test/java/linkedList/LinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/test/java/linkedList/LinkedListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/build/tmp/compileTestJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lib/build/tmp/compileTestJava/source-classes-mapping.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/main/java/challenges/linkedList/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/main/java/challenges/linkedList/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/test/java/challenges/linkedList/LinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/test/java/challenges/linkedList/LinkedListTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +58,19 @@
       </state>
     </system>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="zipLists" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="GitSEFilterConfiguration">
@@ -73,25 +82,30 @@
     </file-type-list>
   </component>
   <component name="ProjectId" id="1qUZotmrlCSggYP5sOBQdfNhBbm" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/lib/src/test/java/challenges" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
-  <component name="RunManager" selected="Gradle.LinkedListTest.kthFromEndTest">
-    <configuration name="LinkedListTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.StacksandQueuesTest">
+    <configuration name="LinkedListTest.TestZipList" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;linkedList.LinkedListTest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;challenges.linkedList.LinkedListTest.TestZipList&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -107,12 +121,12 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="LinkedListTest.insertAfterTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="LinkedListTest.TestzipList" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;linkedList.LinkedListTest.insertAfterTest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;challenges.linkedList.LinkedListTest.TestzipList&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -128,12 +142,12 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="LinkedListTest.insertAfterTest2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="StacksAndQueuesTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;linkedList.LinkedListTest.insertAfterTest2&quot;" />
+        <option name="scriptParameters" value="--tests &quot;challenges.stacksandqueues.StacksAndQueuesTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -149,12 +163,12 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="LinkedListTest.insertBeforeTest2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="StacksAndQueuesTest.testCreateStack" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;linkedList.LinkedListTest.insertBeforeTest2&quot;" />
+        <option name="scriptParameters" value="--tests &quot;challenges.stacksandqueues.StacksAndQueuesTest.testCreateStack&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -170,12 +184,12 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="LinkedListTest.kthFromEndTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="StacksandQueuesTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;linkedList.LinkedListTest.kthFromEndTest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;challenges.stacksandqueues.StacksandQueuesTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -193,11 +207,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.LinkedListTest.kthFromEndTest" />
-        <item itemvalue="Gradle.LinkedListTest" />
-        <item itemvalue="Gradle.LinkedListTest.insertAfterTest2" />
-        <item itemvalue="Gradle.LinkedListTest.insertAfterTest" />
-        <item itemvalue="Gradle.LinkedListTest.insertBeforeTest2" />
+        <item itemvalue="Gradle.StacksandQueuesTest" />
+        <item itemvalue="Gradle.StacksAndQueuesTest.testCreateStack" />
+        <item itemvalue="Gradle.StacksAndQueuesTest" />
+        <item itemvalue="Gradle.StacksandQueuesTest" />
+        <item itemvalue="Gradle.LinkedListTest.TestZipList" />
       </list>
     </recent_temporary>
   </component>
@@ -222,5 +236,13 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

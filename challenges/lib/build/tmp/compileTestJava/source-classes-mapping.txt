@@ -1,6 +1,8 @@
 challenges/ArrayShiftTest.java
  challenges.ArrayShiftTest
+challenges/stacksandqueues/StacksandQueuesTest.java
+ challenges.stacksandqueues.StacksandQueuesTest
+challenges/linkedList/LinkedListTest.java
+ challenges.linkedList.LinkedListTest
 challenges/LibraryTest.java
  challenges.LibraryTest
-linkedList/LinkedListTest.java
- linkedList.LinkedListTest
