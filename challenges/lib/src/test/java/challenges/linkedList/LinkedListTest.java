@@ -74,7 +74,7 @@ import static org.junit.Assert.assertEquals;
             test.insert(3);
             test.insert(5);
             int expected = 5;
-            int actual = test.head.value;
+            int actual = (int) test.head.value;
             assertEquals("head is 5", expected, actual);
 
         }
@@ -86,10 +86,10 @@ import static org.junit.Assert.assertEquals;
             LinkedList test = new LinkedList();
             test.insert(7777);
             int expected = 7777;
-            int actual = test.head.value;
+            int actual = (int) test.head.value;
             test.insert(7171);
             int expected2 = 7171;
-            int actual2 = test.head.value;
+            int actual2 = (int) test.head.value;
             assertEquals("insert 7777", expected, actual);
             assertEquals("insert 7171", expected2, actual2);
         }

@@ -125,8 +125,64 @@ public class  LinkedList {
         }
         return one;
     }
+    public static class Zipping{
+        public static void main(String[] args){
+            System.out.println("Let's zip");
+        }
+    }
+
+//    class LinkedList <T>{
+//        Node<T>head;
+//        Node<T> tail;
+
+        public static  LinkedList zip(LinkedList first, LinkedList second){
+            Node node1 = first.head;
+            Node node2 = second.head;
+            while(node1 != null && node2 != null){
+                Node node1Next = node1.next;
+                Node node2Next = node2.next;
+                node1.next = node2;
+                node2.next = node1Next;
+                node1 = node1Next;
+                node2 = node2Next;
+            }
+
+            return first;
+        }
+
+//        public void append(value){
+//            if(head == null){
+//                head = new Node(value, null);
+//                tail = head;
+//            } else{
+//                tail.next = new Node(value, null);
+//                tail = tail.next;
+//            }
+//
+//        }
+
+//        @Override
+//        public String toString(){
+//            return toString(head);
+//        }
+//        private String toString(Node<T> node){
+//            if(node == null) return "null";
+//            String newStr = String.format("{%s} -> ", node.value.toString(), toString(node.next));
+//            return newStr;
+//        }
+    }
+
+//    class Node <T>{
+//        T value;
+//        Node<T> next;
+//
+//        public <T> Node(T value, Object o) {
+//        }
+//
+//        public Node(int value) {
+//        }
+    //}
 
 
-
-}
+//}
 
