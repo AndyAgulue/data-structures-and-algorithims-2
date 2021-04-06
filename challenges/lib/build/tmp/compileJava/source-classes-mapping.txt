@@ -15,3 +15,5 @@ challenges/Library.java
 challenges/linkedList/LinkedList.java
  challenges.linkedList.LinkedList
  challenges.linkedList.LinkedList$Zipping
+challenges/stacksandqueues/PseudoQueue.java
+ challenges.stacksandqueues.PseudoQueue
