@@ -5,29 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b62f965e-8f13-4526-97e4-0fcc42d563ac" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/src/main/java/challenges/stacksandqueues/PseudoQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/src/test/java/challenges/stacksandqueues/PseudoQueueTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.8.3/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8.3/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.8.3/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8.3/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.8.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8.3/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.8.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8.3/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.8.3/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8.3/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.8.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8.3/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.8.3/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8.3/javaCompile/jarAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.8.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8.3/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.8.3/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8.3/javaCompile/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/build/reports/tests/test/classes/challenges.stacksandqueues.StacksandQueuesTest.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/lib/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/build/reports/tests/test/packages/challenges.stacksandqueues.html" beforeDir="false" afterPath="$PROJECT_DIR$/lib/build/reports/tests/test/packages/challenges.stacksandqueues.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/build/test-results/test/TEST-challenges.stacksandqueues.StacksandQueuesTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/lib/build/test-results/test/binary/output.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/lib/build/test-results/test/binary/output.bin.idx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/lib/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/build/tmp/compileJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lib/build/tmp/compileJava/source-classes-mapping.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/build/tmp/compileTestJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lib/build/tmp/compileTestJava/source-classes-mapping.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readMe/linkedlists.md" beforeDir="false" afterPath="$PROJECT_DIR$/readMe/linkedlists.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,12 +123,12 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="StacksAndQueuesTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="PseudoQueueTest.testEnqueue" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;challenges.stacksandqueues.StacksAndQueuesTest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;challenges.stacksandqueues.PseudoQueueTest.testEnqueue&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -209,10 +189,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.PseudoQueueTest.testDequeue" />
+        <item itemvalue="Gradle.PseudoQueueTest.testEnqueue" />
         <item itemvalue="Gradle.PseudoQueueTest" />
         <item itemvalue="Gradle.StacksandQueuesTest" />
         <item itemvalue="Gradle.StacksAndQueuesTest.testCreateStack" />
-        <item itemvalue="Gradle.StacksAndQueuesTest" />
       </list>
     </recent_temporary>
   </component>
