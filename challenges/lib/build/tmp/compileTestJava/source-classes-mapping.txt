@@ -6,3 +6,5 @@ challenges/linkedList/LinkedListTest.java
  challenges.linkedList.LinkedListTest
 challenges/LibraryTest.java
  challenges.LibraryTest
+challenges/stacksandqueues/PseudoQueueTest.java
+ challenges.stacksandqueues.PseudoQueueTest
