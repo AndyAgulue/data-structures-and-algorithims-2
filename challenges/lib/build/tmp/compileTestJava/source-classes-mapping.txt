@@ -1,10 +1,12 @@
 challenges/ArrayShiftTest.java
  challenges.ArrayShiftTest
-challenges/stacksandqueues/StacksandQueuesTest.java
- challenges.stacksandqueues.StacksandQueuesTest
+challenges/stacksandqueues/PseudoQueueTest.java
+ challenges.stacksandqueues.PseudoQueueTest
 challenges/linkedList/LinkedListTest.java
  challenges.linkedList.LinkedListTest
 challenges/LibraryTest.java
  challenges.LibraryTest
-challenges/stacksandqueues/PseudoQueueTest.java
- challenges.stacksandqueues.PseudoQueueTest
+challenges/stacksandqueues/StacksandQueuesTest.java
+ challenges.stacksandqueues.StacksandQueuesTest
+challenges/utilities/AnimalShelterTest.java
+ challenges.utilities.AnimalShelterTest

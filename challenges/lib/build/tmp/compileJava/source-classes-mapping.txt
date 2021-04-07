@@ -8,12 +8,20 @@ challenges/stacksandqueues/Stack.java
  challenges.stacksandqueues.Stack
 challenges/linkedList/Node.java
  challenges.linkedList.Node
-challenges/stacksandqueues/Queue.java
- challenges.stacksandqueues.Queue
+challenges/stacksandqueues/PseudoQueue.java
+ challenges.stacksandqueues.PseudoQueue
 challenges/Library.java
  challenges.Library
 challenges/linkedList/LinkedList.java
  challenges.linkedList.LinkedList
  challenges.linkedList.LinkedList$Zipping
-challenges/stacksandqueues/PseudoQueue.java
- challenges.stacksandqueues.PseudoQueue
+challenges/utilities/AnimalShelter.java
+ challenges.utilities.AnimalShelter
+challenges/utilities/Animal.java
+ challenges.utilities.Animal
+challenges/utilities/Dog.java
+ challenges.utilities.Dog
+challenges/stacksandqueues/Queue.java
+ challenges.stacksandqueues.Queue
+challenges/utilities/Cat.java
+ challenges.utilities.Cat
