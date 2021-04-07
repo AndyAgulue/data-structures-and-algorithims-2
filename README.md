@@ -152,3 +152,25 @@ Efficiency 0(n)
 <img width="1065" alt="Screen Shot 2021-04-05 at 6 52 59 PM" src="https://user-images.githubusercontent.com/74209521/113648203-12f4b600-9641-11eb-8af3-9aecf6030e2a.png">
 
 
+# Animal Shelter
+
+## Description
+
+Create a class called AnimalShelter which holds only dogs and cats. The shelter operates using a first-in, first-out approach.
+
+
+## Approach and efficiency
+
+Time and efficiency of 0(1)
+
+
+## Whiteboard
+
+
+<img width="704" alt="Screen Shot 2021-04-06 at 2 33 57 PM" src="https://user-images.githubusercontent.com/74209521/113819086-ac999180-972d-11eb-802c-eed9eba68b19.png">
+
+
+
+
+
+
