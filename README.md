@@ -17,3 +17,6 @@ Made an array of numbers, and declared an empty array. Looped through the first 
 ## Solution
 
 ![white board](assets/array-reverse.png)
+
+##
+[code challenge 7](challenges/lib/src/main/java/challenges/linkedList/LinkedList.java)

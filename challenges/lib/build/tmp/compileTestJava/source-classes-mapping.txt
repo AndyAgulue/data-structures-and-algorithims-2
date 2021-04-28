@@ -10,5 +10,7 @@ challenges/stacksandqueues/StacksandQueuesTest.java
  challenges.stacksandqueues.StacksandQueuesTest
 challenges/utilities/AnimalShelterTest.java
  challenges.utilities.AnimalShelterTest
+challenges/MergeSortTest.java
+ challenges.MergeSortTest
 challenges/utilities/MultiBracketValidationTest.java
  challenges.utilities.MultiBracketValidationTest
