@@ -2,18 +2,36 @@ challenges/ArrayReverse.java
  ArrayReverse
 challenges/ArrayShift.java
  challenges.ArrayShift
-challenges/stacksandqueues/Node.java
- challenges.stacksandqueues.Node
 challenges/stacksandqueues/Stack.java
  challenges.stacksandqueues.Stack
-challenges/linkedList/Node.java
- challenges.linkedList.Node
+challenges/tree/Tree.java
+ challenges.tree.Tree
 challenges/stacksandqueues/Queue.java
  challenges.stacksandqueues.Queue
-challenges/Library.java
- challenges.Library
 challenges/linkedList/LinkedList.java
  challenges.linkedList.LinkedList
  challenges.linkedList.LinkedList$Zipping
+challenges/stacksandqueues/Node.java
+ challenges.stacksandqueues.Node
+challenges/utilities/MultiBracketValidation.java
+ challenges.utilities.MultiBracketValidation
+challenges/utilities/AnimalShelter.java
+ challenges.utilities.AnimalShelter
+challenges/utilities/Animal.java
+ challenges.utilities.Animal
+challenges/utilities/Dog.java
+ challenges.utilities.Dog
+challenges/tree/BinarySearchTree.java
+ challenges.tree.BinarySearchTree
+challenges/linkedList/Node.java
+ challenges.linkedList.Node
+challenges/tree/Node.java
+ challenges.tree.Node
 challenges/stacksandqueues/PseudoQueue.java
  challenges.stacksandqueues.PseudoQueue
+challenges/Library.java
+ challenges.Library
+challenges/utilities/Cat.java
+ challenges.utilities.Cat
+challenges/MergeSort.java
+ challenges.MergeSort

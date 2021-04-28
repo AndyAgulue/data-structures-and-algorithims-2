@@ -18,6 +18,10 @@ Made an array of numbers, and declared an empty array. Looped through the first 
 
 ![white board](assets/array-reverse.png)
 
+
+##
+[code challenge 7](challenges/lib/src/main/java/challenges/linkedList/LinkedList.java)
+
 ## Singly Linked List
 
 ### Challenge
@@ -185,6 +189,7 @@ Iterate over the string. If one of the characters is an open brace, push it into
 ## White Board
 ![mbv](https://user-images.githubusercontent.com/74209521/113978408-c48a1780-97f8-11eb-8216-7d51e5c378c3.jpeg)
 Completed with Matthew Simms and Barrett Nance
+
 
 
 
